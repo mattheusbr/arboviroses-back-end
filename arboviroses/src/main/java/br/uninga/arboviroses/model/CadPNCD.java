@@ -17,7 +17,7 @@ private static final long serialVersionUID = 1L;
 	
 	@Id
 	//@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private String id;
+	private Long id;
 	
 	@Column
     private String data;
@@ -94,7 +94,7 @@ private static final long serialVersionUID = 1L;
     public CadPNCD() {
     }
 
-    public CadPNCD(String id, String data, String hora, String a1, String a2, String b, String c, String d1, String d2, String e, String tipo01, String quantidade01, String tipo02, String quantidade02, String tipodeImovel, String numero, String complemento, String sequencia, String numerodeMoradores, String telefoneResidencial, String telefoneRecado, String nomeMorador, String cpf, String dataNascimento, String numerodoCartaoSus) {
+    public CadPNCD(Long id, String data, String hora, String a1, String a2, String b, String c, String d1, String d2, String e, String tipo01, String quantidade01, String tipo02, String quantidade02, String tipodeImovel, String numero, String complemento, String sequencia, String numerodeMoradores, String telefoneResidencial, String telefoneRecado, String nomeMorador, String cpf, String dataNascimento, String numerodoCartaoSus) {
         this.id = id;
         this.data = data;
         this.hora = hora;
@@ -122,11 +122,11 @@ private static final long serialVersionUID = 1L;
         this.numerodoCartaoSus = numerodoCartaoSus;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

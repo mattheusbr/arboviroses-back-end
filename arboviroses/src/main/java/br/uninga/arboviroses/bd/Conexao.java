@@ -12,7 +12,7 @@ public class Conexao {
         try{
             Class.forName("org.postgresql.Driver").newInstance();
             String url = "jdbc:postgresql://127.0.0.1:5432/arboviroses";
-            con = DriverManager.getConnection(url,"postgres","123456");
+            con = DriverManager.getConnection(url,"postgres","sup01");
             status = "Conexão aberta!";
         }catch(SQLException e){
             status = e.getMessage();

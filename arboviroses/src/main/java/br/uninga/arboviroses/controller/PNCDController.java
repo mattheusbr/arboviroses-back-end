@@ -39,7 +39,7 @@ public class PNCDController {
     }
 		
 	@GetMapping("/{id}")
-    public ResponseEntity<CadPNCD>  buscarPorId(@PathVariable String id) {        
+    public ResponseEntity<CadPNCD> buscarPorId(@PathVariable String id) {
         CadPNCD obj = iRepositoryPNCD.findById(id).get();
         return ResponseEntity.ok(obj);
     }
