@@ -48,7 +48,6 @@ public class PNCDController {
     @ResponseStatus(code = HttpStatus.NO_CONTENT)
     public void excluirPorId(@PathVariable String id) {
 		CadPNCD obj = iRepositoryPNCD.findById(id).get();
-        
         iRepositoryPNCD.delete(obj);
     }
 	
