@@ -23,11 +23,11 @@ public class Localidade implements Serializable {
     private String Extrato;
 
     public Localidade(Long id, String descricao, String categoria, String zona, String extrato) {
-        Id = id;
-        Descricao = descricao;
-        Categoria = categoria;
-        Zona = zona;
-        Extrato = extrato;
+        this.Id = id;
+        this.Descricao = descricao;
+        this.Categoria = categoria;
+        this.Zona = zona;
+        this.Extrato = extrato;
     }
 
     public Localidade() {
