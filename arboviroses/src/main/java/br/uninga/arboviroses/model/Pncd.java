@@ -83,7 +83,7 @@ public class Pncd implements Serializable {
     @Column(name = "datanascimento")
     private String dataNascimento;
 
-    @Column(name = "numerodocartaoSus")
+    @Column(name = "numerodocartaosus")
     private String numerodoCartaoSus;
 
     public Pncd(Long id, String data, String hora, String a1, String a2, String b, String c, String d1, String d2, String e, String tipo01, String quantidade01, String tipo02, String quantidade02, String tipodeImovel, String numero, String complemento, String sequencia, String numerodeMoradores, String telefoneResidencial, String telefoneRecado, String nomeMorador, String cpf, String dataNascimento, String numerodoCartaoSus) {
