@@ -1,7 +1,6 @@
 package br.uninga.arboviroses.controller;
 
 import br.uninga.arboviroses.model.Imovel;
-import br.uninga.arboviroses.model.Localidade;
 import br.uninga.arboviroses.service.ImovelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;

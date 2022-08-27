@@ -1,8 +1,6 @@
 package br.uninga.arboviroses.controller;
 
-import br.uninga.arboviroses.model.Localidade;
 import br.uninga.arboviroses.model.Pncd;
-import br.uninga.arboviroses.service.LocalidadeService;
 import br.uninga.arboviroses.service.PncdService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
