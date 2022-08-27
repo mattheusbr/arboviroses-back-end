@@ -59,7 +59,7 @@ public class LocalidadeController {
         }
     }
 
-    @PostMapping("/atualizar/{id}")
+    @PutMapping("/atualizar/{id}")
     public ResponseEntity<Localidade> Atualizar(@PathVariable Long id, @RequestBody Localidade localidade) {
         try {
             return new ResponseEntity<>(localidadeService.Atualizar(id, localidade), HttpStatus.OK);

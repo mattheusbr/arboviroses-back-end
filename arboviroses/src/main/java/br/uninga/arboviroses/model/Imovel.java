@@ -12,7 +12,7 @@ public class Imovel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    @Column(name = "ID", nullable = false)
+    @Column(name = "id", nullable = false)
     private Long Id;
     @Column(name = "localidade")
     private String Localidade;
@@ -24,15 +24,15 @@ public class Imovel implements Serializable {
     private String Numero;
     @Column(name = "bairro")
     private String Bairro;
-    @Column(name = "tipoImovel")
+    @Column(name = "tipoimovel")
     private String TipoImovel;
     @Column(name = "complemento")
     private String Complemento;
     @Column(name = "sequencia")
     private String Sequencia;
-    @Column(name = "telefoneResidencial")
+    @Column(name = "telefoneresidencial")
     private String TelefoneResidencial;
-    @Column(name = "telefoneRecado")
+    @Column(name = "telefonerecado")
     private String TelefoneRecado;
     @Column(name = "observacao", nullable = false)
     private String Observacao;

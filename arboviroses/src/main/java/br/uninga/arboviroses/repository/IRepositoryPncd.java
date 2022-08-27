@@ -1,11 +1,9 @@
 package br.uninga.arboviroses.repository;
 
+import br.uninga.arboviroses.model.Pncd;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import br.uninga.arboviroses.model.CadPNCD;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IRepositoryPNCD extends JpaRepository<CadPNCD, String>{
-
+public interface IRepositoryPncd extends JpaRepository<Pncd, Long> {
 }

@@ -60,7 +60,7 @@ public class ImovelController {
         }
     }
 
-    @PostMapping("/atualizar/{id}")
+    @PutMapping("/atualizar/{id}")
     public ResponseEntity<Imovel> Atualizar(@PathVariable Long id, @RequestBody Imovel imovel) {
         try {
             return new ResponseEntity<>(imovelService.Atualizar(id, imovel), HttpStatus.OK);

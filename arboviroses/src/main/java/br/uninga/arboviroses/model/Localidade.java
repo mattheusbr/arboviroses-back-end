@@ -11,7 +11,7 @@ import java.io.Serializable;
 public class Localidade implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    @Column(name = "ID", nullable = false)
+    @Column(name = "id", nullable = false)
     private Long Id;
     @Column(name = "descricao", nullable = true)
     private String Descricao;

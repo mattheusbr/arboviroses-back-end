@@ -1,6 +1,5 @@
 package br.uninga.arboviroses.repository;
 
-import br.uninga.arboviroses.model.CadPNCD;
 import br.uninga.arboviroses.model.Localidade;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
