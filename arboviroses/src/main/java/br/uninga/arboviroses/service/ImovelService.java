@@ -51,7 +51,6 @@ public class ImovelService {
             return repositoryImovel.save(_imovel);
         }else{
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-            //return new Localidade();
         }
     }
 }

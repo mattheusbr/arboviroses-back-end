@@ -42,7 +42,6 @@ public class QuarteiraoService {
             return repositoryQuarteirao.save(_quarteirao);
         }else{
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-            //return new Localidade();
         }
     }
 }

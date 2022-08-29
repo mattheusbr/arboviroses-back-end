@@ -45,7 +45,6 @@ public class LocalidadeService {
             return repositoryLocalidade.save(_localidade);
         }else{
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-            //return new Localidade();
         }
     }
 }

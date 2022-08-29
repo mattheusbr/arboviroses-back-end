@@ -1,6 +1,5 @@
 package br.uninga.arboviroses.service;
 
-import br.uninga.arboviroses.model.Localidade;
 import br.uninga.arboviroses.model.Pncd;
 import br.uninga.arboviroses.repository.IRepositoryPncd;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -64,7 +63,6 @@ public class PncdService {
             return repositoryPncd.save(_Pncd);
         }else{
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-            //return new Localidade();
         }
     }
 }
