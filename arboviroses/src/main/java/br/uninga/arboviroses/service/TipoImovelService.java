@@ -37,7 +37,7 @@ public class TipoImovelService {
         if (tipoImovelService.isPresent()) {
             TipoImovel _tipoImovelService = tipoImovelService.get();
             _tipoImovelService.setSigla(tipoImovel.getSigla());
-            _tipoImovelService.setDecricao(tipoImovel.getDecricao());
+            _tipoImovelService.setDescricao(tipoImovel.getDescricao());
             return repositoryTipoImovel.save(_tipoImovelService);
         }else{
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);

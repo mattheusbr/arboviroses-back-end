@@ -17,5 +17,5 @@ public class TipoImovel {
     private String Sigla;
 
     @Column(name = "descricao")
-    private String Decricao;
+    private String Descricao;
 }
